@@ -1,15 +1,16 @@
-
+body{
+  background-color: black;
+}
 .welcome{ 
-    position: fixed;
-    z-index: 0;/*最背面に設定*/
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    right:0;
-    left:0;
-    bottom:0;
-    overflow: hidden;
-    size-adjust: 100%;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  right:0;
+  left:0;
+  bottom:0;
+  overflow: hidden;
+  size-adjust: 100%;
     }
 
 
@@ -69,6 +70,12 @@ html, body {
     width: 100% !important;
     height: auto !important;
   }
+
+  video{
+    display: block;
+    width: 100% !important;
+    height: -webkit-fill-available !important;   
+}
   
   /* ====================
   Layout
